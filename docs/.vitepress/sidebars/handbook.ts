@@ -1,0 +1,28 @@
+// 手册页导航栏
+export const handBook = {
+  text: "手册",
+  collapsed: false,
+  items: [
+    { text: "JavaScript", link: "/js" },
+    { text: "TypeScript", link: "/ts" },
+    { text: "HTML", link: "/html" },
+    { text: "CSS", link: "/css" },
+    { text: "设备像素", link: "/device-pixel" },
+    { text: "响应式布局", link: "/layout" },
+    { text: "Flex", link: "/flex" },
+    { text: "Less", link: "/less" },
+    { text: "Sass/Scss", link: "/scss" },
+    { text: "Git", link: "/git" },
+    { text: "Github指南", link: "/github" },
+    { text: "glob模式", link: "/glob" },
+    { text: "Vue", link: "/vue" },
+    { text: "前端通用库", link: "/general" },
+    { text: "Markdown", link: "/markdown" },
+    { text: "English Words", link: "/words" },
+    { text: "算法", link: "/algorithm" },
+    { text: "常用windows命令", link: "/windows" },
+    { text: "常用Linux命令", link: "/linux" },
+    { text: "Shell脚本", link: "/shell" },
+    { text: "文件后缀名", link: "/file-suffix" },
+  ],
+};
