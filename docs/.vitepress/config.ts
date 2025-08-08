@@ -14,6 +14,7 @@ export default defineConfig({
   base: "/docs/",
   description: "wxyzqt的文档手册",
 
+  head: [["link", { rel: "icon", href: "/docs/favicon.ico" }]],
   markdown: {
     container: {
       tipLabel: "提示",
