@@ -7,5 +7,6 @@ export const tool = {
     { text: "vscode设置", link: "/vscode" },
     { text: "如何发布 NPM 包", link: "/npm" },
     { text: "查询统计资源", link: "/resource" },
+    { text: "windows11快捷键", link: "/windows11" },
   ],
 };
