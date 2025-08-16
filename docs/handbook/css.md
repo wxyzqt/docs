@@ -6,6 +6,16 @@ Cascading Style Sheets，层叠样式表
 
 [MDN-css 工具](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_colors/Color_picker_tool)
 
+## css 框架
+
+[Tailwind CSS github](https://github.com/tailwindlabs/tailwindcss)
+
+[Tailwind CSS website](https://tailwindcss.com/docs/installation/using-vite)
+
+:::tip
+嗯~~~，从理念上来说，bootstrap 已经被我放弃了，但是它也很不错。
+:::
+
 ## css 处理器
 
 ### 预处理器
