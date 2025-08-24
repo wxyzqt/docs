@@ -10,7 +10,7 @@
 
 ## 推荐用法
 
-多使用默认的类型推导，配合 vscode 好用滴~
+多使用默认的类型推导，多配合 vscode
 
 多使用[utility-types](https://github.com/piotrwitek/utility-types),避免重复造轮子。
 
@@ -27,3 +27,5 @@ TypeScript 代码中使用文档注释的提议
 [tsdoc](https://github.com/microsoft/tsdoc)
 
 [tsdoc 英文](https://tsdoc.org/)
+
+tsdoc 是文档注释的解释器，目前使用[typedoc github](https://github.com/TypeStrong/typedoc)，[website](https://typedoc.org/)
