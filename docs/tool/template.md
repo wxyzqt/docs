@@ -16,23 +16,25 @@ git clone --depth 1 repo-url
 
 ## 现有模板仓库
 
-| 仓库名称                                                                       | 目的                           | 概述                               |
-| :----------------------------------------------------------------------------- | :----------------------------- | :--------------------------------- |
-| [template-npm](https://github.com/wxyzqt/template-npm)                         | npm 包和非前端项目基建         | 同时也是后续`template-*`仓库的模板 |
-| [template-fastify](https://github.com/wxyzqt/template-fastity)                 | 采用 fastify 的 web 服务       | 基建继承自 template-npm            |
-| [template-quasar-vue3](https://github.com/wxyzqt/template-quasar-vue3)         | 基于 quasar 的 vue3 自适应前端 | 基建继承自 template-npm            |
-| [template-quasar-electron](https://github.com/wxyzqt/template-quasar-electron) | 基于 quasar 的桌面应用         | 基建继承自 template-npm            |
+| 仓库名称                                                                       | 目的                           |
+| :----------------------------------------------------------------------------- | :----------------------------- |
+| [template-npm](https://github.com/wxyzqt/template-npm)                         | npm 包和 node 项目模板         |
+| [template-fastify](https://github.com/wxyzqt/template-fastity)                 | 采用 fastify 的 web 服务       |
+| [template-quasar-vue3](https://github.com/wxyzqt/template-quasar-vue3)         | 基于 quasar 的 vue3 自适应前端 |
+| [template-quasar-electron](https://github.com/wxyzqt/template-quasar-electron) | 基于 quasar 的桌面应用         |
 
 ### 共有基建
 
-| 功能             | 采用工具   | 概述                      |
-| :--------------- | :--------- | :------------------------ |
-| IDE              | vscode     | [插件和扩展](./vscode.md) |
-| IDE 代码格式化   | prettier   | IDE 设置保存时自动格式化  |
-| 源代码规范       | typescript | 默认采用 ts               |
-| 源代码检查       | eslint     | config 配置               |
-| 源代码提交钩子   | husky      | pre-commit 钩子           |
-| 源代码提交格式化 | prettier   | 提交前自动格式化兜底      |
+| 功能             | 采用工具      | 概述                      |
+| :--------------- | :------------ | :------------------------ |
+| IDE              | vscode        | [插件和扩展](./vscode.md) |
+| IDE 代码格式化   | prettier      | IDE 设置保存时自动格式化  |
+| 源代码规范       | typescript    | 默认采用 ts               |
+| 源代码检查       | eslint        | config 配置               |
+| 源代码提交钩子   | husky         | pre-commit 钩子           |
+| 源代码提交格式化 | prettier      | 提交前自动格式化兜底      |
+| ts 实用类型      | utility-types | 减少类型体操              |
+| 使用工具         | lodash-es     | 减少无状态功能函数        |
 
 ### 特质化基建
 
