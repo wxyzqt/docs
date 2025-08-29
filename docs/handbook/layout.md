@@ -18,7 +18,7 @@
 
 通过媒体查询，使用 min-width 或 max-width。
 
-移动优先使用 min-width,大屏优先使用 max-width。
+移动优先项目使用 min-width,大屏优先项目使用 max-width。
 
 ```css
 /* 针对宽度大于等于 768px 的设备 */

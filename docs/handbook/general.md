@@ -8,7 +8,7 @@
 
 [vue-i18n](https://github.com/intlify/vue-i18n)
 
-[vue-i18n 英文](https://vue-i18n.intlify.dev/)
+[vue-i18n website](https://vue-i18n.intlify.dev/)
 
 ## lodash-es
 
@@ -24,4 +24,4 @@ date-fns 是轻量级库，支持 Tree Shaking，ts，也支持国际化。
 
 [date-fns](https://github.com/date-fns/date-fns)
 
-[date-fns 英文](https://date-fns.org/)，网站加载不成功时，可以直接看仓库的 docs。
+[date-fns website](https://date-fns.org/)，网站加载不成功时，可以直接看仓库的 docs。

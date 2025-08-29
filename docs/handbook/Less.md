@@ -1,6 +1,6 @@
 # Less
 
-[less-官网](https://lesscss.org/features/)
+[less website](https://lesscss.org/features/)
 
 ## 变量
 

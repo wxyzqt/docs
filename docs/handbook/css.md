@@ -8,12 +8,12 @@ Cascading Style Sheets，层叠样式表
 
 ## css 框架
 
-[Tailwind CSS github](https://github.com/tailwindlabs/tailwindcss)
+[Tailwind CSS](https://github.com/tailwindlabs/tailwindcss)
 
 [Tailwind CSS website](https://tailwindcss.com/docs/installation/using-vite)
 
 :::tip
-嗯~~~，从理念上来说，bootstrap 已经被我放弃了，但是它也很不错。
+嗯~~~，从习惯上来说，bootstrap 已经被我放弃了，但是它也很不错。
 :::
 
 ## css 处理器
@@ -26,14 +26,14 @@ Cascading Style Sheets，层叠样式表
 
 [less](https://github.com/less/less.js)
 
-[less-官网](https://lesscss.org/features/)
+[less website](https://lesscss.org/features/)
 
 :::details 个人观点
 sass 是最早的 css 预处理器语言，scss 是 sass 的新版本。老意味着功能全同时也代表着历史负担重，我一般不使用它。
 
 stylus 像 python 一样，可以省略括号和标点符号，这是否是个优势？就开发维护来说，我认为不是。
 
-less，功能不算最全，但够用，我推荐这个。
+less，功能不算最全，但够用。
 :::
 
 ### 后处理器
@@ -46,6 +46,7 @@ less，功能不算最全，但够用，我推荐这个。
 
 ```md
 ‌ 外部样式表加载：使用<link>标签引入的外部样式表会并行下载，不阻塞页面渲染。
+
 @import 规则属于 CSS 文件内部模块化引入方式，串行下载且可能阻塞渲染。 ‌
 
 ‌ 覆盖规则：后加载的样式表会覆盖先加载的同名样式（权重相同时）。
@@ -68,6 +69,7 @@ CSS 优先级按四层级模型计算：
 网上流行的面试题所描述的盒模型，本质上是 css 设置 width 时，width 所涵盖的范围
 
 IE：width = content + padding + border
+
 w3c: width = content
 
 从实际应用和规范角度来说，现有浏览器所采用的都是 w3c 所描述的盒模型,即 content = width

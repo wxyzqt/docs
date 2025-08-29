@@ -1,6 +1,6 @@
 # 常用 windows 命令
 
-[PowerShell 文档](https://learn.microsoft.com/zh-cn/powershell/)
+[PowerShell Microsoft 文档](https://learn.microsoft.com/zh-cn/powershell/)
 
 ## CMD 和 PowerShell 关系
 

@@ -768,7 +768,7 @@ intersection: 交集
 compose: 并集
 ```
 
-## 时间、日期
+## 日期
 
 ```md
 time: 时间
@@ -1191,13 +1191,12 @@ octal: 八进制
 
 ## 键盘符
 
-```md
+```txt
 punctuator: 标点符号
 identifier: 标识符
 
-// Unique graphic character allocations
-// 独特的图形字符分配
-// --------------------------------------------------------
+Unique graphic character allocations 独特的图形字符分配
+--------------------------------------------------------
 exclamation mark: ! 感叹号
 quotation mark: " 双引号
 percent sign: % 百分号
@@ -1206,7 +1205,7 @@ apostrophe: ' 撇号
 ellipse/apostrophe: …… 省略号
 left parenthesis: ( 左括号
 right parenthesis: ) 右括号
-asterisk: \* 星号
+asterisk: * 星号
 plus sign: + 加号
 comma: , 逗号
 slight-pause mark: 、 顿号
@@ -1227,17 +1226,15 @@ digital 0: 0 数字 0
 latin capital letter A: A 大写拉丁字母
 latin small letter A: A 小写拉丁字母
 
-// Alternative graphic character allocations
-// 可选的图形字符分配
-// --------------------------------------------------------
+Alternative graphic character allocations 可选的图形字符分配
+--------------------------------------------------------
 number sign: # 数字符号
 pound sign: £ 英镑符号
 dollar sign: $ 美元符号
 currency sign:  货币符
 
-// IRV(International Reference Version) graphic character allocations
-// IRV 图形字符分配
-// --------------------------------------------------------
+IRV(International Reference Version) graphic character allocations IRV 图形字符分配
+--------------------------------------------------------
 number sign: # 数字符号
 dollar sign: $ 美元符号
 commercial at: @

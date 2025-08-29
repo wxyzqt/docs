@@ -2,8 +2,6 @@
 
 [github 中文文档](https://docs.github.com/zh/get-started/start-your-journey/about-github-and-git)
 
-[markdown 速查手册](https://www.markdownguide.org/cheat-sheet/)
-
 [emoji 速查手册](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
 ## 个人资料
@@ -26,17 +24,13 @@
 
 ## copilot
 
-[copilot](https://github.com/copilot),微软出品，vscode 同样集成。
-
 github 集成的 AI，帮助查找和解释
+
+[copilot](https://github.com/copilot)，微软出品，vscode 同样集成。
 
 ## 开源许可证
 
 [许可证对比](https://choosealicense.com/licenses/)
-
-## markdown
-
-[github 中的 md 语法](https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 ## 关系图
 

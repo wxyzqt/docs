@@ -18,7 +18,7 @@
 ipconfig /flushdns
 ```
 
-[dev-sidecar](https://github.com/docmirror/dev-sidecar),同样好用的加速工具，作为备选。
+[dev-sidecar](https://github.com/docmirror/dev-sidecar)，同样好用的加速工具，作为备选。
 
 ## 修改 hosts
 
@@ -28,7 +28,7 @@ windows 系统不同，hosts 文件位置不同，一般在下面位置
 c:\windows\system32\drivers\etc
 ```
 
-[SwitchHosts](https://github.com/oldj/SwitchHosts),定时自动修改 hosts 文件，[软件下载地址](https://github.com/oldj/SwitchHosts/releases)。
+[SwitchHosts](https://github.com/oldj/SwitchHosts)，定时自动修改 hosts 文件，[软件下载地址](https://github.com/oldj/SwitchHosts/releases)。
 
 ::: tip
 通过修改 hosts 来访问就像在打游击，并不稳定，使用加速工具省心一点。

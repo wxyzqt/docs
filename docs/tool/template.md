@@ -12,16 +12,16 @@
 git clone --depth 1 repo-url
 ```
 
-不保留.git 文件和历史记录，直接下载 zip
+.git 文件和历史记录都不保留，则可以直接下载 zip
 
 ## 现有模板仓库
 
-| 仓库名称                                                                       | 目的                           |
-| :----------------------------------------------------------------------------- | :----------------------------- |
-| [template-npm](https://github.com/wxyzqt/template-npm)                         | npm 包和 node 项目模板         |
-| [template-fastify](https://github.com/wxyzqt/template-fastity)                 | 采用 fastify 的 web 服务       |
-| [template-quasar-vue3](https://github.com/wxyzqt/template-quasar-vue3)         | 基于 quasar 的 vue3 自适应前端 |
-| [template-quasar-electron](https://github.com/wxyzqt/template-quasar-electron) | 基于 quasar 的桌面应用         |
+| 仓库名称                                                                       | 目的                             |
+| :----------------------------------------------------------------------------- | :------------------------------- |
+| [template-npm](https://github.com/wxyzqt/template-npm)                         | npm 包和 node 项目模板           |
+| [template-fastify](https://github.com/wxyzqt/template-fastity)                 | 采用 fastify 的 web 服务         |
+| [template-quasar-vue3](https://github.com/wxyzqt/template-quasar-vue3)         | 基于 quasar 的 vue3 自适应前端   |
+| [template-quasar-electron](https://github.com/wxyzqt/template-quasar-electron) | 基于 quasar 的 electron 桌面应用 |
 
 ### 共有基建
 
@@ -30,7 +30,7 @@ git clone --depth 1 repo-url
 | IDE              | vscode        | [插件和扩展](./vscode.md) |
 | IDE 代码格式化   | prettier      | IDE 设置保存时自动格式化  |
 | 源代码规范       | typescript    | 默认采用 ts               |
-| 源代码检查       | eslint        | config 配置               |
+| 源代码检查       | eslint        | 采用默认配置              |
 | 源代码提交钩子   | husky         | pre-commit 钩子           |
 | 源代码提交格式化 | prettier      | 提交前自动格式化兜底      |
 | ts 实用类型      | utility-types | 减少类型体操              |

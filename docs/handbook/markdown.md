@@ -6,6 +6,10 @@ vsocde 使用的插件 markdown preview enhanced。
 
 [markdown-preview-enhanced 中文](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/markdown-basics)
 
+[markdown 速查手册](https://www.markdownguide.org/cheat-sheet/)
+
+[github 中的 md 语法](https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
 ## 标题
 
 使用#号，几个#号代表几级

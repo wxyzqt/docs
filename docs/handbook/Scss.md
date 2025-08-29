@@ -2,7 +2,7 @@
 
 [sass/scss](https://github.com/sass/sass)
 
-[官网](https://sass-lang.com/documentation/)
+[website](https://sass-lang.com/documentation/)
 
 ## 变量
 
@@ -55,7 +55,7 @@ text: {
 }
 ```
 
-##### & 表示当前选择器的父级
+### & 表示当前选择器的父级
 
 ```scss
 .clearfix {
@@ -73,7 +73,7 @@ text: {
 }
 ```
 
-#### @import
+## @import
 
 - 不需要指定文件后缀，Sass 会自动添加后缀 .scss
 - 可以导入 CSS 文件
@@ -84,14 +84,14 @@ text: {
 @import "reset";
 ```
 
-##### Partials
+## Partials
 
 - 不希望将一个 Sass 的代码文件编译到一个 CSS 文件
 - 在文件名的开头添加一个下划线
 - 导入语句中我们不需要添加下划线
 - 不要将下划线与不带下划线的同名文件放置在同一个目录下,否则带下划线的文件将会被忽略
 
-#### @mixin 与 @include
+## @mixin 与 @include
 
 ```scss
 @mixin important-text {
@@ -150,7 +150,7 @@ text: {
 }
 ```
 
-#### @extend 与 继承
+## @extend 与 继承
 
 - @extend 指令告诉 Sass 一个选择器的样式从另一选择器继承
 

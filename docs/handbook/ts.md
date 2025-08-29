@@ -4,39 +4,45 @@
 
 [TypeScript](https://github.com/microsoft/TypeScript)
 
-[TypeScript Documentation 中文官网](https://www.typescriptlang.org/zh/docs/)
+[TypeScript Documentation 官网](https://www.typescriptlang.org/docs/handbook/intro.html)
 
 [TypeScript Deep Dive 中文](https://github.com/jkchao/typescript-book-chinese)
 
 ## 速查表
 
-[TypeScript Classes](/ts/TypeScript-Classes.png)
+[Types](/ts/TypeScript-Types.png)
 
-[TypeScript Control Flow Analysis](/ts/TypeScript-Control-Flow-Analysis.png)
+[Interfaces](/ts/TypeScript-Interfaces.png)
 
-[TypeScript Interfaces](/ts/TypeScript-Interfaces.png)
+[Classes](/ts/TypeScript-Classes.png)
 
-[TypeScript Types](/ts/TypeScript-Types.png)
+[Control Flow Analysis](/ts/TypeScript-Control-Flow-Analysis.png)
 
 ## 推荐用法
 
-多使用默认的类型推导，多配合 vscode
+个人认为，ts 优势有两个大点：
 
-多利用库自带类型，找不到库的类型文件时，先去[DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)看看，[中文介绍](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/README.zh-Hans.md)
+1. 无论使用 js 还是 ts，只要开发环境(IDE)和库提供类型，则给了开发者一个便捷的类型说明。
 
-多使用[utility-types](https://github.com/piotrwitek/utility-types),避免重复造轮子。
+2. 在结构和控制流上提示开发者可能发生错误的地方。
 
-## 开发中的文档注释
+基于这两点认知，推荐多使用默认的类型推导，少写不必要标注，多配合 IDE(vscode)和类型工具库，少做类型体操。
+
+较热门的库多数自带类型，找不到库的类型文件时，先去[DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)查一查，[中文](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/README.zh-Hans.md)
+
+## ts 开发中的文档注释规范
 
 TypeScript 代码中使用文档注释的提议
 
 [tsdoc](https://github.com/microsoft/tsdoc)
 
-[tsdoc 英文](https://tsdoc.org/)
+[tsdoc website](https://tsdoc.org/)
 
-tsdoc 是文档注释的解释器，目前使用[typedoc](https://github.com/TypeStrong/typedoc)，[website](https://typedoc.org/)
+tsdoc 是文档注释的解释器，目前实现是[typedoc](https://github.com/TypeStrong/typedoc)，[typedoc website](https://typedoc.org/)
 
 ## utility-types 源码和示例
+
+[utility-types](https://github.com/piotrwitek/utility-types)，包含 ts 内建类型和开源社区精选类型。
 
 ```cmd
 npm install utility-types
@@ -562,7 +568,7 @@ type Props = PickByValue<Props, number | undefined>;
 
 #### `PickByValueExact<T, ValueType>`
 
-从 T 中选取`精确值类型`匹配的属性
+从 T 中选取`精确值类型匹配`的属性
 
 ```ts
 export type PickByValueExact<T, ValueType> = Pick<
@@ -604,7 +610,7 @@ type Props = OmitByValue<Props, number | undefined>;
 
 #### `OmitByValueExact<T, ValueType>`
 
-从 T 中移除`精确值类型`匹配的属性
+从 T 中移除`精确值类型匹配`的属性
 
 ```ts
 export type OmitByValueExact<T, ValueType> = Pick<
@@ -628,7 +634,7 @@ type Props = OmitByValueExact<Props, number | undefined>;
 
 #### 交集 `Intersection<T, U>`
 
-T,U 属性的并集
+T,U 属性的交集
 
 ```ts
 export type Intersection<T extends object, U extends object> = Pick<

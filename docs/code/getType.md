@@ -52,8 +52,8 @@
 
 而在类中，除这种继承外，子类也有`__proto__`指向父类，这种指向便于静态属性和方法的重用。
 
-1. B 函数继承自 A 函数
-2. B.prototype 继承自 A.prototype
+1. B.prototype 继承自 A.prototype
+2. B 类继承自 A 类
 
 <<< @/code/getType.js#exampleSix
 

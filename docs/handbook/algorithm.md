@@ -1,6 +1,6 @@
 # 算法
 
-[hello-algo github](https://github.com/krahets/hello-algo)
+[hello-algo](https://github.com/krahets/hello-algo)
 
 [hello-algo 中文](https://www.hello-algo.com/chapter_hello_algo/)
 

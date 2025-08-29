@@ -2,13 +2,13 @@
 
 [约定式提交](https://github.com/conventional-commits/conventionalcommits.org)
 
-[约定式提交 中文网站](https://www.conventionalcommits.org/zh-hans/v1.0.0/)
+[约定式提交 中文](https://www.conventionalcommits.org/zh-hans/v1.0.0/)
 
 ## 规范化每次提交的内容
 
 > 常用提交
 
-- feature: 功能新增
+- feat: feature 功能新增
 - fix: 修复 bug
 - docs: 项目文档修改
 - style：样式修改
@@ -27,9 +27,9 @@
 
 开发分支 develop/dev
 
-功能开发:feature_time_desc
+功能开发 feature_time_desc
 
-bug 修复:fix_time_issue
+bug 修复 fix_time_issue
 
 已经解决稳定的 feature 和 fix 分支，应该在 main 生产无误后删除
 

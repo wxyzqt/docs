@@ -49,6 +49,8 @@ github 从 2020 年开始，仓库默认主分支已从 master 改为 main
 git clone <url>
 可以指定新的名字
 git clone <url> newNmae
+clone 最新一次提交，不带历史记录
+git clone --depth=1 <url>
 ```
 
 #### 修改仓库远程地址
@@ -86,7 +88,7 @@ git config --global user.email 'xx@xx.com'
 git config --global --unset user.name
 ```
 
-查看所有配置
+查看所有全局配置
 
 ```md
 git config --global --list
@@ -135,7 +137,7 @@ doc/**/*.pdf
 ```
 
 ::: tip
-[gitignore](https://github.com/github/gitignore)有各语言忽略文件列表
+[gitignore](https://github.com/github/gitignore)有各语言忽略文件模板
 :::
 
 ### 查看状态
@@ -155,13 +157,13 @@ git commit
 提交信息与命令同一行
 git commit -m 'description'
 
-跳过 add 暂存，直接提交修改文件
+直接提交修改文件
 git commit -a -m 'description'
 ```
 
 ### 删除文件
 
-```md
+```txt
 简单删除
 git rm
 
@@ -173,10 +175,10 @@ git rm --cached <fileNmae>
 
 支持 glob 模式
 删除 log 目录下.log 结尾文件
-git rm log/\*.log
+git rm log/*.log
 
 删除所有名字以 ~ 结尾的文件
-git rm \*~
+git rm *~
 ```
 
 ### 移动文件（重命名）
@@ -247,11 +249,11 @@ git remote remove origin
 
 ### 打标签
 
-```md
+```txt
 列出已有标签
 git tag -l (--list)
 查询具体信息
-git tag -l "v1.8.5\*"
+git tag -l "v1.8.5*"
 ```
 
 #### 轻量标签（lightweight）

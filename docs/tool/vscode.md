@@ -31,9 +31,9 @@ Git History git 提交历史本地查看
 Regex Snippets 常用正则生成
 
 :::info 用法
-Ctrl+Shift+P,输入 Insert Snippet ，选择，而后输入 snippets 即可
+Ctrl+Shift+P,输入 Insert Snippet，选择，而后输入 snippets 就可以选择正则。
 
-[snippets](https://github.com/monizb/vscode-regex-snippets)
+[snippets 速查表](https://github.com/monizb/vscode-regex-snippets?tab=readme-ov-file#snippets)
 :::
 
 ::: tip
@@ -88,19 +88,18 @@ Ctrl+Shift+P,输入 Insert Snippet ，选择，而后输入 snippets 即可
     "prefix": "tsdoc",
     "body": [
       "/**",
-      "* 函数说明'$1'",
+      "* 概述'$1'",
       "*",
       "* @remarks",
       "* '$2'",
       "*",
-      "* @param x - '$3'",
-      "* @param y - '$4'",
+      "* @param x '$3'",
+      "* @param y '$4'",
       "* @returns '$5'",
       "*",
-      "* @beta",
       "*/"
     ],
-    "description": "快速生成tsdoc文档注释"
+    "description": "快速生成TypeScript文档注释"
   }
 }
 ```
