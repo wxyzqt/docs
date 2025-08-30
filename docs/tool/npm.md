@@ -1,17 +1,29 @@
 # 如何发布 NPM 包
 
-## 本地开发调试
+[creating-and-publishing-scoped-public-packages](https://docs.npmjs.com/creating-and-publishing-scoped-public-packages)
 
-1. 开发目录下链接包到全局
+## 本地测试包
+
+1. 开发包目录链接包到全局
 
 ```sh
+# cd 到开发包根目录下,会将开发包链接到全局
 npm link
+
+# 查看全局包地址，这时候全局目录会包含开发包的符号链接
+npm config get prefix
+
+# 在测试目录中，使用npm link <pkg-name>将下载开发包到测试目录node_modules文件夹
+# 开发包修改不必每次重新link，因为本质上是符号链接，直接指向开发包的目录
 ```
 
 2. 解除链接
 
 ```sh
- npm unlink <module-name> -g
+# 开发包
+ npm unlink -g <module-name>
+
+# 测试目录不需要参数 -g
 ```
 
 ## 发布
@@ -51,11 +63,13 @@ npm publish
 ```
 
 ```sh
+# 作为公共包发布
 npm publish --access public
 ```
 
 5. 更新版本
-   major|minor|patch
+
+major|minor|patch
 
 ```sh
 npm version <update_type>
