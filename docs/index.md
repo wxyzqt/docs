@@ -4,7 +4,7 @@ layout: home
 # head:
 #   - - meta
 #     - "http-equiv": "refresh"
-#       content: "10; url=/docs/link/"
+#       content: "10; url=/docs/handbook/"
 
 hero:
   name: "wxyzqt"
