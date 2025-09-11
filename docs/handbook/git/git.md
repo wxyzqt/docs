@@ -1,4 +1,4 @@
-# git
+# Git
 
 git 就不用多介绍了
 
@@ -14,7 +14,7 @@ git 就不用多介绍了
 
 [速查手册](https://training.github.com/downloads/zh_CN/github-git-cheat-sheet/)
 
-## 常用命令行
+## 常用命令
 
 ### ssh 公钥
 

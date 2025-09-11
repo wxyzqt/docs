@@ -1,8 +1,6 @@
-# github 指南
+# Github
 
-[github 中文文档](https://docs.github.com/zh/get-started/start-your-journey/about-github-and-git)
-
-[emoji 速查手册](https://www.webfx.com/tools/emoji-cheat-sheet/)
+[中文文档](https://docs.github.com/zh/get-started/start-your-journey/about-github-and-git)
 
 ## 个人资料
 
@@ -37,6 +35,8 @@ github 集成的 AI，帮助查找和解释
 github 支持四种语法在 md 中创建关系图：mermaid、geoJSON、topoJSON 和 ASCII STL。
 
 [mermaid](https://mermaid.js.org/intro/)
+
+[mermaid 示例](./mermaid)
 
 ## 发现
 

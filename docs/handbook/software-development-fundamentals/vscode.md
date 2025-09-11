@@ -1,4 +1,6 @@
-# vscode 设置
+# vscode
+
+## 同步设置
 
 vscode 本身可以登陆账号，同步设置[Turning on Settings Sync](https://code.visualstudio.com/docs/configure/settings-sync)，下列扩展为本人常用。
 
@@ -6,34 +8,36 @@ vscode 本身可以登陆账号，同步设置[Turning on Settings Sync](https:/
 
 Chinese 简体中文
 
-open in browser 打开浏览器
+`open in browser` 打开浏览器
 
-Prettier 代码格式化工具，本人通常使用默认配置，配合 vscode 自动保存，非常好用
+`Prettier` 代码格式化工具，本人通常使用默认配置，配合 vscode 自动保存，非常好用
 
-vscode-pdf 在 vscode 里面看 PDF
+`vscode-pdf` 在 vscode 里面看 PDF
 
 ::: tip
 通常 pdf 直接使用 chrome 打开体验也不错
 :::
 
-markdownlint md 文件语法检查
+`markdownlint` md 文件语法检查
 
-Markdown Preview Enhanced md 文件预览
+`Markdown Preview Enhanced` md 文件预览增强
 
-gitignore 添加 git 忽略文件十分方便。
+`gitignore` 添加 git 忽略文件十分方便。
 
 :::info 用法
 Ctrl+Shift+P,输入 Add gitignore 选择模版即可
 :::
 
-Git History git 提交历史本地查看
+`Git History git` 提交历史本地查看
 
-Regex Snippets 常用正则生成
+`Regex Snippets` 常用正则生成
 
 :::info 用法
-Ctrl+Shift+P,输入 Insert Snippet，选择，而后输入 snippets 就可以选择正则。
+Ctrl+Shift+P,输入 Insert Snippet， 选择需要的正则
 
 [snippets 速查表](https://github.com/monizb/vscode-regex-snippets?tab=readme-ov-file#snippets)
+
+此插件在 js 和 ts 文件中才会触发
 :::
 
 ::: tip

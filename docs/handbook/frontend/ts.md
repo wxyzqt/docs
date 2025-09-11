@@ -28,7 +28,7 @@
 
 基于这两点认知，推荐多使用默认的类型推导，少写不必要标注，多配合 IDE(vscode)和类型工具库，少做类型体操。
 
-较热门的库多数自带类型，找不到库的类型文件时，先去[DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)查一查，[中文](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/README.zh-Hans.md)
+较热门的库多数自带类型，找不到库的类型文件时，先去[DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)查一查，[readme 中文](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/README.zh-Hans.md)
 
 ## ts 开发中的文档注释规范
 

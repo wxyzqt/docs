@@ -8,14 +8,14 @@ CMD（命令提示符）和 PowerShell 是 Windows 系统中两种不同的命�
 
 ### 关系
 
-- **兼容性**：PowerShell 向下兼容 CMD 的大部分命令（如 `dir`、`cd` 等）。
-- **替代性**：PowerShell 是 CMD 的增强版，功能更强大，逐渐成为 Windows 系统的默认命令行工具。
-- **共存性**：CMD 和 PowerShell 可以同时存在，可以根据需求选择使用。
+- **兼容**：PowerShell 向下兼容 CMD 的大部分命令（如 `dir`、`cd` 等）。
+- **替代**：PowerShell 是 CMD 的增强版，功能更强大，逐渐成为 Windows 系统的默认命令行工具。
+- **共存**：CMD 和 PowerShell 可以同时存在，可以根据需求选择使用。
 
 ### 选择建议
 
-- **简单任务**：如文件操作、运行批处理脚本，使用 CMD 即可。
-- **复杂任务**：如系统管理、任务自动化、跨平台脚本，推荐使用 PowerShell。
+- **简单任务**：如文件操作、运行批处理脚本，使用 CMD 。
+- **复杂任务**：如系统管理、任务自动化、跨平台脚本，使用 PowerShell。
 
 总结来说，PowerShell 是 CMD 的现代化替代工具，但 CMD 仍然适合一些简单的任务。
 
@@ -23,7 +23,7 @@ CMD（命令提示符）和 PowerShell 是 Windows 系统中两种不同的命�
 
 | 特性       | VS Code 终端                  | CMD（命令提示符）        |
 | :--------- | :---------------------------- | :----------------------- |
-| 集成性     | 集成在 VS Code 中             | 独立运行                 |
+| 集成       | 集成在 VS Code 中             | 独立运行                 |
 | Shell 支持 | 支持 CMD、PowerShell、Bash 等 | 仅支持 CMD               |
 | 多终端支持 | 支持                          | 不支持                   |
 | 跨平台     | 支持（Windows、Linux、macOS） | 仅支持 Windows           |

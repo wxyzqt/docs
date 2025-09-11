@@ -1,14 +1,18 @@
 # Markdown 常用语法
 
-vsocde 使用的插件 markdown preview enhanced。
+[markdown 速查手册](https://www.markdownguide.org/cheat-sheet/)
+
+## 在 vscode 中使用
+
+vscode 使用插件 markdown preview enhanced。
 
 [markdown-preview-enhanced](https://github.com/shd101wyy/markdown-preview-enhanced)
 
-[markdown-preview-enhanced 中文](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/markdown-basics)
-
-[markdown 速查手册](https://www.markdownguide.org/cheat-sheet/)
+## 在 github 中使用
 
 [github 中的 md 语法](https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
+[emoji 速查手册](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
 ## 标题
 

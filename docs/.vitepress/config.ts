@@ -3,14 +3,13 @@ import { searchOptions } from "./searchOptions";
 import {
   nav,
   sidebarHandBook,
-  sidebarCode,
   sidebarStandrad,
-  sidebarTool,
+  sidebarPrinciple,
 } from "./sidebar";
 
 export default defineConfig({
   lang: "zh-Hans",
-  title: "Docs",
+  title: "Documents",
   base: "/docs/",
   description: "wxyzqt的文档手册",
 
@@ -36,8 +35,7 @@ export default defineConfig({
     sidebar: {
       "/handbook/": { base: "/handbook/", items: sidebarHandBook() },
       "/standard/": { base: "/standard/", items: sidebarStandrad() },
-      "/tool/": { base: "/tool/", items: sidebarTool() },
-      "/code/": { base: "/code/", items: sidebarCode() },
+      "/principle/": { base: "/principle/", items: sidebarPrinciple() },
     },
 
     socialLinks: [{ icon: "github", link: "https://github.com/wxyzqt/docs" }],

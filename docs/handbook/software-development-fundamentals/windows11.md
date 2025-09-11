@@ -1,8 +1,14 @@
 # windows11 使用手册
 
+## 链接
+
 [windows11 键盘快捷方式](https://support.microsoft.com/zh-cn/windows/windows-%E7%9A%84%E9%94%AE%E7%9B%98%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F-dcc61a57-8ff0-cffe-9796-cb9706c75eec)
 
-<a target="_blank" href="/docs/windows-11快捷键列表.pdf">快捷键列表 本地 pdf</a>
+## 快捷键列表
+
+<a target="_blank" href="/docs/windows-11快捷键列表.pdf">本地快捷键列表</a>
+
+## 常用快捷键
 
 ```md
 Win + A：打开快速设置面板。
