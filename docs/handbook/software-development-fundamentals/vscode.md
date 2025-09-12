@@ -1,4 +1,4 @@
-# vscode
+# VS Code
 
 ## 同步设置
 
@@ -70,7 +70,7 @@ Ctrl+Shift+P,输入 Insert Snippet， 选择需要的正则
 {
   "Console Log": {
     "prefix": "clg",
-    "body": ["console.log($1);", "$2"],
+    "body": ["console.log($1);"],
     "description": "快速插入 console.log"
   }
 }
@@ -78,11 +78,11 @@ Ctrl+Shift+P,输入 Insert Snippet， 选择需要的正则
 
 - prefix: 输入 clg 时触发代码片段。
 
-- body: 定义插入的代码内容，$1 和 $2 是光标占位符。
+- body: 定义插入的代码内容，$1 是光标占位符。
 
 - description: 描述代码片段的用途。
 
-- body 数组内，每一行对应 1 个字符串元素,。
+- body 数组，每一行对应 1 个字符串元素,。
 
 快速生成 tsdoc 文档注释
 
@@ -106,4 +106,42 @@ Ctrl+Shift+P,输入 Insert Snippet， 选择需要的正则
     "description": "快速生成TypeScript文档注释"
   }
 }
+```
+
+## 常用基础配置文件
+
+### .gitattributes
+
+```.git
+* text eol=lf
+*.png binary
+*.mp4 binary
+*.exe binary
+```
+
+### .vscode/extensions.json
+
+```json
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "ms-ceintl.vscode-language-pack-zh-hans",
+    "dbaeumer.vscode-eslint",
+    "shd101wyy.markdown-preview-enhanced",
+    "davidanson.vscode-markdownlint",
+    "techer.open-in-browser",
+    "tomoki1207.pdf"
+  ]
+}
+```
+
+### .prettierignore
+
+```text
+build
+coverage
+log
+logs
+dist
+*.log
 ```

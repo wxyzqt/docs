@@ -1,88 +1,17 @@
-# 如何发布 NPM 包
+# NPM
 
-[creating-and-publishing-scoped-public-packages](https://docs.npmjs.com/creating-and-publishing-scoped-public-packages)
+Node Package Manager,node 包管理器
 
-## 本地测试包
+## 包管理器
 
-1. 开发包目录链接包到全局
+node 安装包自带 npm,同类型包管理器还有[yarn](https://yarnpkg.com/getting-started),[pnpm](https://www.pnpm.cn/pnpm-cli)
 
-```sh
-# cd 到开发包根目录下,会将开发包链接到全局
-npm link
+不过为了保证通用和便捷性，我一般使用 npm（官方配置的广泛性和稳定性也是工程中极其重要的考量因素）
 
-# 查看全局包地址，这时候全局目录会包含开发包的符号链接
-npm config get prefix
+## nvm
 
-# 在测试目录中，使用npm link <pkg-name>将下载开发包到测试目录node_modules文件夹
-# 开发包修改不必每次重新link，因为本质上是符号链接，直接指向开发包的目录
-```
+node 版本管理工具，版本切换不可避免。
 
-2. 解除链接
+[下载地址](https://github.com/nvm-sh/nvm?tab=readme-ov-file#important-notes)
 
-```sh
-# 开发包
- npm unlink -g <module-name>
-
-# 测试目录不需要参数 -g
-```
-
-## 发布
-
-1. npm 官网注册账户
-
-2. 命令行登录
-
-```sh
-npm login
-username:[your name]
-email:[your email]
-```
-
-查看登录用户
-
-```sh
-npm whoami
-```
-
-3. 确认 npm 源是否修改
-
-```sh
-npm config set registry=https://registry.npmjs.org
-```
-
-淘宝镜像
-
-```sh
-npm config set registry=https://registry.npm.taobao.org
-```
-
-4. 进入项目目录
-
-```sh
-npm publish
-```
-
-```sh
-# 作为公共包发布
-npm publish --access public
-```
-
-5. 更新版本
-
-major|minor|patch
-
-```sh
-npm version <update_type>
-npm publish
-```
-
-6. 更新自述文件（npm 包介绍）
-
-```sh
-npm version patch
-npm publish
-```
-
-:::tip
-npm 包发布成功后，`unpkg.com/<pkgName>/<path>`可以拿到 cdn
-:::
+[用法](https://github.com/nvm-sh/nvm?tab=readme-ov-file#usage)

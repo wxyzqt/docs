@@ -1,12 +1,19 @@
 // 规范页导航栏
 export default [
   {
-    text: "规范推荐",
+    text: "基础规范",
     collapsed: false,
     items: [
-      { text: "git提交规范", link: "/git" },
+      { text: "git提交", link: "/git" },
       { text: "语义化版本", link: "/semver" },
-      { text: "js & ts 规范", link: "/js&ts" },
+    ],
+  },
+  {
+    text: "JavaScript相关",
+    collapsed: false,
+    items: [
+      { text: "js & ts", link: "/js&ts" },
+      { text: "npm包", link: "/npm-pkg" },
     ],
   },
 ];
