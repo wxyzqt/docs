@@ -1,5 +1,7 @@
 # 如何发布 NPM 包
 
+## 链接
+
 [creating-and-publishing-scoped-public-packages](https://docs.npmjs.com/creating-and-publishing-scoped-public-packages)
 
 ## 本地测试包
@@ -80,3 +82,7 @@ npm publish
 :::tip
 npm 包发布成功后，`unpkg.com/<pkgName>/<path>`可以拿到 cdn
 :::
+
+## 开发模板
+
+[开源项目](/handbook/open-source-projects/)目录下提供了一个完整的包开发模板。

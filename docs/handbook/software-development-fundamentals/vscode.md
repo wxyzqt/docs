@@ -112,7 +112,7 @@ Ctrl+Shift+P,输入 Insert Snippet， 选择需要的正则
 
 ### .gitattributes
 
-```.git
+```text
 * text eol=lf
 *.png binary
 *.mp4 binary

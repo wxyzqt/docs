@@ -1,18 +1,46 @@
 # js && ts 项目规范
 
-简单一点，使用 eslint 约束代码质量，使用 Prettier 格式化代码，结合 CI 流程，尽量采用默认设置。
+## 共识
 
-[eslint](https://github.com/eslint/eslint?tab=readme-ov-file#installation-and-usage)
+`node项目`、`前端界面`、`npm包`开发，无论项目大小用途，应当遵循以下几点：
 
-[typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)
+1. 开发环境便捷，IDE 自动保存，保存时自动格式化
+2. 项目采用统一代码检查和格式化
+3. 代码提交应有钩子兜底
+4. 随项目附带开发文档
 
-[prettier](https://github.com/prettier/eslint-config-prettier)
+:::tip
+通常主流`前端框架`或`node项目`提供 cli 模板，建议使用其模板，而后根据需要添加步骤 1-4 中任意部分或全部。
 
-[prettier docs](https://prettier.io/docs/install)
+这里分 4 步，只是为了更清晰展现其功能，并无逻辑顺序关系。
+:::
 
-## 使用
+## 步骤 1
 
-这种方式可以在不同 IDE 实现对单个项目的代码质量控制，同时具备了可移植和灵活性。
+创建.vscode 配置文件夹
+.vscode/extensions.json
+
+```json
+{
+  "recommendations": ["esbenp.prettier-vscode", "dbaeumer.vscode-eslint"]
+}
+```
+
+.vscode/settings.json
+
+```json
+{
+  "files.autoSave": "onFocusChange"
+}
+```
+
+:::tip
+还有一些 vscode 项目常用配置文件，[常用基础配置文件](/handbook/software-development-fundamentals/vscode.html#%E5%B8%B8%E7%94%A8%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6)
+:::
+
+## 步骤 2
+
+使用 eslint 约束代码质量，使用 Prettier 格式化代码,尽量采用默认设置
 
 ### 配置 eslint
 
@@ -36,6 +64,8 @@ export default defineConfig([
 ```
 
 #### 配置 ts-eslint
+
+ts 项目，采用此种方式
 
 ```cmd
 npm install --save-dev eslint @eslint/js typescript typescript-eslint
@@ -97,14 +127,11 @@ export default [
 
 :::
 
-::: tip
-使用 vscode 开发，通常安装扩展 prettier，并设置自动保存时格式化。
-这与 package.json 里的 prettier 作用不同，IDE 帮助开发时格式化，package.json 则是在提交时兜底。
-:::
+## 步骤 3
 
 ### 添加 git hooks
 
-husky 是 git pre-commit 的钩子，lint-staged 对 git add 之后即暂存区文件检查
+husky 是 git pre-commit 的钩子，lint-staged 对 git add 之后的暂存区文件检查
 
 ```cmd
 npm install --save-dev husky lint-staged
@@ -121,3 +148,34 @@ node --eval "fs.writeFileSync('.husky/pre-commit','npx lint-staged\n')"
   }
 }
 ```
+
+## 步骤 4
+
+开发文档大致分两种类型：
+
+- 普通项目的配套文档，使用[vitepress](https://vitepress.dev/zh/guide/what-is-vitepress)；
+- `npm包`的开发文档，使用[typedoc](https://typedoc.org/)
+
+具体介绍在[开源项目](/handbook/open-source-projects/)目录下
+
+### 项目配套文档
+
+提供两种模板仓库，js 和 ts 项目各一种
+
+### npm 包开发文档
+
+作为`npm包`的开发者而非使用者，ts 是基本要求，所以只提供 ts 一种文档方式。
+
+`npm包`开发文档单独做为一个仓库意义不大，所以此项对应的开源项目提供了完整的包开发模板。
+
+包括：开发环境配置、格式化、代码检查、提交钩子、配套文档生成、测试以及打包工具。
+
+## 链接
+
+[eslint](https://github.com/eslint/eslint?tab=readme-ov-file#installation-and-usage)
+
+[typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)
+
+[prettier](https://prettier.io/docs/install)
+
+[eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
