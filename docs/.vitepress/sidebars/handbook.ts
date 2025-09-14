@@ -71,6 +71,9 @@ export default [
     text: "开源项目",
     collapsed: false,
     base: "/handbook/open-source-projects",
-    items: [{ text: "介绍", link: "/index" }],
+    items: [
+      { text: "template-npm-package", link: "/template-npm-package" },
+      { text: "role", link: "/role" },
+    ],
   },
 ];
