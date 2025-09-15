@@ -5,7 +5,7 @@ import {
   sidebarHandBook,
   sidebarStandrad,
   sidebarPrinciple,
-} from "./sidebar";
+} from "./sidebars";
 
 export default defineConfig({
   lang: "zh-Hans",

@@ -1,7 +1,7 @@
 import { DefaultTheme } from "vitepress";
-import handBook from "./sidebars/handbook";
-import standard from "./sidebars/standard";
-import princple from "./sidebars/princple";
+import handBook from "./handbook";
+import standard from "./standard";
+import princple from "./princple";
 
 // ------顶部导航栏------
 export const nav = [

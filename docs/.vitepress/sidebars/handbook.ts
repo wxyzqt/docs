@@ -73,6 +73,8 @@ export default [
     base: "/handbook/open-source-projects",
     items: [
       { text: "template-npm-package", link: "/template-npm-package" },
+      { text: "template-docs-ts", link: "/template-docs-ts" },
+      { text: "template-docs-js", link: "/template-docs-js" },
       { text: "role", link: "/role" },
     ],
   },
