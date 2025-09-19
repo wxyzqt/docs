@@ -6,6 +6,8 @@ export default [
     items: [
       { text: "git提交", link: "/git" },
       { text: "语义化版本", link: "/semver" },
+      { text: "docker", link: "/docker" },
+      { text: "配置文件", link: "/config-file" },
     ],
   },
   {

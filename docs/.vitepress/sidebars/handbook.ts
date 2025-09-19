@@ -61,12 +61,7 @@ export default [
       { text: "webAssembly", link: "/webAssembly" },
     ],
   },
-  {
-    text: "算法",
-    collapsed: false,
-    base: "/handbook/algorithm",
-    items: [{ text: "链接", link: "/algorithm" }],
-  },
+
   {
     text: "开源项目",
     collapsed: false,

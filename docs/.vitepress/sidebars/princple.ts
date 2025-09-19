@@ -7,6 +7,12 @@ export default [
     items: [{ text: "位操作", link: "/bitOperate" }],
   },
   {
+    text: "算法",
+    collapsed: false,
+    base: "/principle/algorithm",
+    items: [{ text: "链接", link: "/algorithm" }],
+  },
+  {
     text: "JavaScript相关",
     collapsed: false,
     items: [
