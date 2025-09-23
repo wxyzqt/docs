@@ -28,7 +28,7 @@
 
 ## 跨语言环境
 
-[yaml](https://www.w3cschool.cn/yaml1/yaml_introduction.html) 格式的配置文件，因其结构简要，可以添加注释，成为跨语言跨平台的主流配置文件格式。
+[yaml](https://www.runoob.com/w3cnote/yaml-intro.html) 格式的配置文件，因其结构简要，可以添加注释，成为跨语言跨平台的主流配置文件格式。
 
 - 优点：跨环境，便于多人合作，可以添加注释
 - 缺点：简单编程环境中体验不如语言内置；网络传输速度不如 json。
