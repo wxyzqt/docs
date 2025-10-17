@@ -16,17 +16,17 @@
 
 2. instanceof 实际检测的是内置属性`__proto__`的指向,而且很容易改写。
 
-<<< @/principle/getType.js#exampleOne{3,7,8}
+<<< @/frontend/getType.js#exampleOne{3,7,8}
 
-<<< @/principle/getType.js#exampleTwo{5}
+<<< @/frontend/getType.js#exampleTwo{5}
 
 3. constructor，应当将其视做保存构造函数引用的备忘录，而非修改。
 
-<<< @/principle/getType.js#exampleThree{3,5,8,9}
+<<< @/frontend/getType.js#exampleThree{3,5,8,9}
 
 4. 实际使用中，应采用下面代码
 
-<<< @/principle/getType.js#exampleFour{2}
+<<< @/frontend/getType.js#exampleFour{2}
 
 通过 call，使用 Object.prototype.toString 来访问原始值`[object xxxx]`。
 
@@ -44,7 +44,7 @@
 4. 所有的引用类型，它的`__proto__`属性指向它的构造函数的 prototype 对象
 5. 试图得到对象的一个属性时，如果这个对象本身不存在这个属性，那么就会去它的`__proto__`属性中去寻找
 
-<<< @/principle/getType.js#exampleFive
+<<< @/frontend/getType.js#exampleFive
 
 ## 单链和双链继承
 
@@ -55,7 +55,7 @@
 1. B.prototype 继承自 A.prototype
 2. B 类继承自 A 类
 
-<<< @/principle/getType.js#exampleSix
+<<< @/frontend/getType.js#exampleSix
 
 :::warning
 准确来说，`[[Prototype]]`才是原型的正确称呼，`__proto__`只是[[Prototype]]的访问器属性

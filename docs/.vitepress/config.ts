@@ -2,9 +2,13 @@ import { defineConfig } from "vitepress";
 import { searchOptions } from "./searchOptions";
 import {
   nav,
-  sidebarHandBook,
+  sidebarBasic,
+  sidebarFrontend,
+  sidebarNode,
+  sidebarAssembly,
+  sidebarCpp,
   sidebarStandrad,
-  sidebarPrinciple,
+  sidebarOpenSource,
 } from "./sidebars";
 
 export default defineConfig({
@@ -33,9 +37,13 @@ export default defineConfig({
     },
 
     sidebar: {
-      "/handbook/": { base: "/handbook/", items: sidebarHandBook() },
-      "/standard/": { base: "/standard/", items: sidebarStandrad() },
-      "/principle/": { base: "/principle/", items: sidebarPrinciple() },
+      "/basic": { base: "/basic", items: sidebarBasic() },
+      "/frontend": { base: "/frontend", items: sidebarFrontend() },
+      "/node": { base: "/node", items: sidebarNode() },
+      "/assembly": { base: "/assembly", items: sidebarAssembly() },
+      "/cpp": { base: "/cpp", items: sidebarCpp() },
+      "/standard": { base: "/standard", items: sidebarStandrad() },
+      "/openSource": { base: "/openSource", items: sidebarOpenSource() },
     },
 
     socialLinks: [{ icon: "github", link: "https://github.com/wxyzqt/docs" }],

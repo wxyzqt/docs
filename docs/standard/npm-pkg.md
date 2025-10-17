@@ -85,4 +85,4 @@ npm 包发布成功后，`unpkg.com/<pkgName>/<path>`可以拿到 cdn
 
 ## 开发模板
 
-[开源项目](/handbook/open-source-projects/template-npm-package.html)目录下提供了一个完整的包开发模板。
+[开源项目](/basic/open-source-projects/template-npm-package.html)目录下提供了一个完整的包开发模板。

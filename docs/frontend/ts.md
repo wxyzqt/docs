@@ -4,7 +4,7 @@
 
 [TypeScript](https://github.com/microsoft/TypeScript)
 
-[TypeScript Documentation 官网](https://www.typescriptlang.org/docs/handbook/intro.html)
+[TypeScript Documentation 官网](https://www.typescriptlang.org/docs/basic/intro.html)
 
 [TypeScript Deep Dive 中文](https://github.com/jkchao/typescript-book-chinese)
 

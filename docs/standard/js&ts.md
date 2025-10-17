@@ -35,7 +35,7 @@
 ```
 
 :::tip
-还有一些 vscode 项目常用配置文件，[常用基础配置文件](/handbook/software-development-fundamentals/vscode.html#%E5%B8%B8%E7%94%A8%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6)
+还有一些 vscode 项目常用配置文件，[常用基础配置文件](/basic/software-development-fundamentals/vscode.html#%E5%B8%B8%E7%94%A8%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6)
 :::
 
 ## 步骤 2
@@ -156,7 +156,7 @@ node --eval "fs.writeFileSync('.husky/pre-commit','npx lint-staged\n')"
 - 普通项目的配套文档，使用[vitepress](https://vitepress.dev/zh/guide/what-is-vitepress)；
 - `npm包`的开发文档，使用[typedoc](https://typedoc.org/)
 
-具体介绍在[开源项目](/handbook/open-source-projects/)目录下
+具体介绍在[开源项目](/basic/open-source-projects/)目录下
 
 ### 项目配套文档
 
