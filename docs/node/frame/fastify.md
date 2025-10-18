@@ -42,6 +42,7 @@ function requireModule(moduleName) {
   }
 }
 
+// 配置项默认值，也是要求的格式
 module.exports = {
   port: 5000,
   address: "fastify.dev:9999",
@@ -64,4 +65,6 @@ module.exports = {
 
 ### 小结
 
-总的来说，前端环境 esm，node 环境 commonjs 还是目前以及相当长一段时间内的推荐开发方式。
+尽管 node 环境下有相当多的 cjs 依赖，但还是推荐 mjs，因为它是推荐规范，而且整体社区已在向 mjs 迁移。
+
+在实际使用中，如果依赖框架或库采用 cjs，则应尽量避免使用其 cli 或者生成工具，只将其当成一个接口去调用。

@@ -3,14 +3,26 @@ export default [
   {
     text: "Node",
     collapsed: false,
-    base: "/node",
+    base: "/node/basic",
     items: [
-      { text: "Node", link: "/node" },
+      { text: "概念", link: "/concept" },
       { text: "NPM", link: "/npm" },
-      { text: "Fastify", link: "/fastify" },
-      { text: "Koa", link: "/koa" },
-      { text: "Electron", link: "/electron" },
       { text: "webAssembly", link: "/webAssembly" },
     ],
+  },
+  {
+    text: "框架",
+    collapsed: false,
+    base: "/node/frame",
+    items: [
+      { text: "Fastify", link: "/fastify" },
+      { text: "Koa", link: "/koa" },
+    ],
+  },
+  {
+    text: "跨平台",
+    collapsed: false,
+    base: "/node/cross-platform",
+    items: [{ text: "Electron", link: "/electron" }],
   },
 ];
