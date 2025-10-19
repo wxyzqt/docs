@@ -11,7 +11,7 @@
 - feat: feature 功能新增
 - fix: 修复 bug
 - docs: 项目文档修改
-- style：样式修改
+- style：不涉及功能，外观类修改
 - test: 测试用例，包括单元测试、集成测试等
 
 > 基建类型的提交

@@ -31,35 +31,3 @@ Release Candidate（候选版本），该版本又较 beta 版更进一步了，
 ### stable/release 版
 
 稳定版。这个就是软件的最终发行版。
-
-## 更新 package.json 中的 version
-
-增加主版本号（MAJOR）
-
-```cmd
-npm version major
-```
-
-增加次版本号（MINOR）
-
-```cmd
-npm version minor
-```
-
-增加修订号（PATCH）
-
-```cmd
-npm version patch
-```
-
-直接指定版本
-
-```cmd
-npm version <new-version>
-```
-
-跳过 git 标签，即不创建 git 标签
-
-```md
-npm version patch --no-git-tag-version
-```

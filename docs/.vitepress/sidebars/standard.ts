@@ -19,4 +19,9 @@ export default [
       { text: "npm包", link: "/npm-pkg" },
     ],
   },
+  {
+    text: "C++相关",
+    collapsed: false,
+    items: [{ text: "C++", link: "/cpp" }],
+  },
 ];

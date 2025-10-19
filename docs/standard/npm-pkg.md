@@ -63,26 +63,49 @@ npm publish
 npm publish --access public
 ```
 
-5. 更新版本
+:::tip
+npm 包发布成功后，`unpkg.com/<pkgName>/<path>`可以拿到 cdn
+:::
 
-major|minor|patch
+## 更新
 
-```sh
-npm version <update_type>
-npm publish
+增加主版本号（MAJOR）
+
+```cmd
+npm version major
 ```
 
-6. 更新自述文件（npm 包介绍）
+增加次版本号（MINOR）
+
+```cmd
+npm version minor
+```
+
+增加修订号（PATCH）
+
+```cmd
+npm version patch
+```
+
+直接指定版本
+
+```cmd
+npm version <new-version>
+```
+
+跳过 git 标签，即不创建 git 标签
+
+```md
+npm version patch --no-git-tag-version
+```
+
+### 更新 readme
 
 ```sh
 npm version patch
 npm publish
 ```
 
-:::tip
-npm 包发布成功后，`unpkg.com/<pkgName>/<path>`可以拿到 cdn
-:::
-
 ## 开发模板
 
-[开源项目](/basic/open-source-projects/template-npm-package.html)目录下提供了一个完整的包开发模板。
+[开源项目](../openSource/template-npm-package.html)目录下提供了一个完整的包开发模板。

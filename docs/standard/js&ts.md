@@ -156,7 +156,7 @@ node --eval "fs.writeFileSync('.husky/pre-commit','npx lint-staged\n')"
 - 普通项目的配套文档，使用[vitepress](https://vitepress.dev/zh/guide/what-is-vitepress)；
 - `npm包`的开发文档，使用[typedoc](https://typedoc.org/)
 
-具体介绍在[开源项目](/basic/open-source-projects/)目录下
+具体介绍在[开源项目](../openSource/)目录下
 
 ### 项目配套文档
 
