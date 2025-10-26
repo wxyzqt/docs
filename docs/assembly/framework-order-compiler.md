@@ -26,7 +26,7 @@
 
 - 两种指令集设计方向：
   - CISC(复杂指令集),Complex Instruction Set Computing
-  - RISC(精简指令集),Reduced Instruction Set Computer
+  - RISC(精简指令集),Reduced Instruction Set Computing
 
 |            | ‌‌CISC                                             | ‌RISC                                          |
 | :--------- | :------------------------------------------------- | :--------------------------------------------- |

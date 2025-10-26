@@ -20,7 +20,9 @@ export default [
     items: [
       { text: "BIOS", link: "/bios" },
       { text: "架构、指令集、编译器", link: "/framework-order-compiler" },
+      { text: "寄存器", link: "/register" },
       { text: "指令", link: "/order" },
+      { text: "NASM", link: "/nasm" },
     ],
   },
 ];
