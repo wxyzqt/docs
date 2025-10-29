@@ -18,6 +18,7 @@ export default [
     collapsed: false,
     base: "/basic/software-development-fundamentals",
     items: [
+      { text: "编程语言", link: "/programmingLanguage" },
       { text: "VS Code", link: "/vscode" },
       { text: "English Words", link: "/words" },
       { text: "常用windows命令", link: "/windows" },
