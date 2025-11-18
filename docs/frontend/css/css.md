@@ -59,7 +59,7 @@ CSS 优先级按四层级模型计算：
 ```
 
 :::warning
-常规开发，慎用 !important
+常规开发慎用 !important
 :::
 
 ## 盒模型

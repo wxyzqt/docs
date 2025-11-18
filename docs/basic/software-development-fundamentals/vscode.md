@@ -20,7 +20,7 @@ Chinese 简体中文
 
 `markdownlint` md 文件语法检查
 
-`Markdown Preview Enhanced` md 文件预览增强
+`Markdown Preview Enhanced` md 文件预览
 
 `gitignore` 添加 git 忽略文件十分方便。
 
@@ -64,7 +64,7 @@ Ctrl+Shift+P,输入 Insert Snippet， 选择需要的正则
 }
 ```
 
-示例：快速生成 console.log 语句。
+### 示例：快速生成 console.log 语句。
 
 ```js
 {
@@ -84,7 +84,7 @@ Ctrl+Shift+P,输入 Insert Snippet， 选择需要的正则
 
 - body 数组，每一行对应 1 个字符串元素,。
 
-快速生成 tsdoc 文档注释
+### 示例：快速生成 tsdoc 文档注释
 
 ```json
 {

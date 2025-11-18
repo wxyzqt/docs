@@ -1,4 +1,4 @@
-# 常用 windows 命令
+# windows 命令
 
 [PowerShell Microsoft 文档](https://learn.microsoft.com/zh-cn/powershell/)
 

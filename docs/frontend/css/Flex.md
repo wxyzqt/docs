@@ -2,8 +2,6 @@
 
 flex 则是用来替代传统的布局方式，从构建理念上贴近人的直观认知
 
-这里推荐阮一峰老师的教程：
-
 [flex 布局](https://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
 
 [flex 布局示例](https://www.ruanyifeng.com/blog/2015/07/flex-examples.html)

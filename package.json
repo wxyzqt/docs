@@ -8,6 +8,7 @@
     "docs:dev": "vitepress dev docs --port 9999 --open /docs/basic",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
-    "docs": "npm run docs:dev"
+    "docs": "npm run docs:dev",
+    "dev": "npm run docs:dev"
   }
 }
