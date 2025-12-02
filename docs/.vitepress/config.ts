@@ -7,6 +7,7 @@ import {
   sidebarNode,
   sidebarAssembly,
   sidebarCpp,
+  sidebarOs,
   sidebarStandrad,
   sidebarOpenSource,
 } from "./sidebars";
@@ -42,6 +43,7 @@ export default defineConfig({
       "/node": { base: "/node", items: sidebarNode() },
       "/assembly": { base: "/assembly", items: sidebarAssembly() },
       "/cpp": { base: "/cpp", items: sidebarCpp() },
+      "/os": { base: "/cpp", items: sidebarOs() },
       "/standard": { base: "/standard", items: sidebarStandrad() },
       "/openSource": { base: "/openSource", items: sidebarOpenSource() },
     },

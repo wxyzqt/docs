@@ -4,6 +4,7 @@ import frontend from "./frontend";
 import node from "./node";
 import assembly from "./assembly";
 import cpp from "./cpp";
+import os from "./os";
 import standard from "./standard";
 import openSource from "./openSource";
 
@@ -14,6 +15,7 @@ export const nav = [
   { text: "Node", link: "/node" },
   { text: "汇编", link: "/assembly" },
   { text: "C++", link: "/cpp" },
+  { text: "操作系统", link: "/os" },
   { text: "规范", link: "/standard" },
   { text: "开源", link: "/openSource" },
 ];
@@ -42,6 +44,11 @@ export function sidebarAssembly(): DefaultTheme.SidebarItem[] {
 // C/C++
 export function sidebarCpp(): DefaultTheme.SidebarItem[] {
   return cpp;
+}
+
+// 操作系统
+export function sidebarOs(): DefaultTheme.SidebarItem[] {
+  return os;
 }
 
 // 规范

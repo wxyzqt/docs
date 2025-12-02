@@ -10,7 +10,6 @@ export default [
       { text: "位操作", link: "/bitOperate" },
       { text: "操作系统", link: "/os" },
       { text: "操作系统模式", link: "/osm" },
-      { text: "专业词汇", link: "/words" },
     ],
   },
   {
@@ -19,10 +18,10 @@ export default [
     base: "/assembly",
     items: [
       { text: "BIOS", link: "/bios" },
+      { text: "UEFI", link: "/uefi" },
       { text: "架构、指令集、编译器", link: "/framework-order-compiler" },
       { text: "寄存器", link: "/register" },
       { text: "64位", link: "/os-64" },
-      { text: "UEFI", link: "/uefi" },
       { text: "指令", link: "/order" },
       { text: "NASM", link: "/nasm" },
     ],
