@@ -1,11 +1,11 @@
 // 汇编 侧边导航栏
 export default [
   {
-    text: "教程",
+    text: "代码分析",
     collapsed: false,
-    base: "/os/tutorial",
+    base: "/os/code-analysis",
     items: [
-      { text: "全貌认知", link: "/01" },
+      { text: "硬件认知", link: "/01" },
       { text: "os开发配置", link: "/02" },
       { text: "从汇编开始", link: "/03" },
     ],

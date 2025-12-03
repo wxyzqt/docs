@@ -2,8 +2,8 @@ import { DefaultTheme } from "vitepress";
 import basic from "./basic";
 import frontend from "./frontend";
 import node from "./node";
-import assembly from "./assembly";
 import cpp from "./cpp";
+import assembly from "./assembly";
 import os from "./os";
 import standard from "./standard";
 import openSource from "./openSource";
@@ -13,8 +13,8 @@ export const nav = [
   { text: "基础", link: "/basic" },
   { text: "前端", link: "/frontend" },
   { text: "Node", link: "/node" },
-  { text: "汇编", link: "/assembly" },
   { text: "C++", link: "/cpp" },
+  { text: "汇编", link: "/assembly" },
   { text: "操作系统", link: "/os" },
   { text: "规范", link: "/standard" },
   { text: "开源", link: "/openSource" },
@@ -36,14 +36,14 @@ export function sidebarNode(): DefaultTheme.SidebarItem[] {
   return node;
 }
 
-// 汇编
-export function sidebarAssembly(): DefaultTheme.SidebarItem[] {
-  return assembly;
-}
-
 // C/C++
 export function sidebarCpp(): DefaultTheme.SidebarItem[] {
   return cpp;
+}
+
+// 汇编
+export function sidebarAssembly(): DefaultTheme.SidebarItem[] {
+  return assembly;
 }
 
 // 操作系统
