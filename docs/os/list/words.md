@@ -25,6 +25,10 @@ ROM:read only memory,只读存储器
 
 IVT:interrupt vector table,中断向量表
 
+CHS:Cylinder Head Sector,磁柱磁头扇区寻址
+
+FAT:file allocation table,文件分配表
+
 RTL:Run Time Library,运行时库
 
 CRT:C Runtime Library,c 运行时库
@@ -47,5 +51,9 @@ IDT:interrupt descriptor table‌,中断描述符表
 
 OEM:original equipment manufacturer,原始设备制造商
 
-BPB:BIOS parameter block‌,磁盘参数块
+BPB:BIOS parameter block‌,BIOS 参数块
+
+DBR:DOS Boot Record,DOS 引导记录
+
+OBR:OS Boot Record,OS 引导记录
 ```
