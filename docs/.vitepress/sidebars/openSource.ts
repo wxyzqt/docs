@@ -9,6 +9,7 @@ export default [
       { text: "template-docs-ts", link: "/template-docs-ts" },
       { text: "template-docs-js", link: "/template-docs-js" },
       { text: "role", link: "/role" },
+      { text: "os", link: "/os" },
     ],
   },
 ];
