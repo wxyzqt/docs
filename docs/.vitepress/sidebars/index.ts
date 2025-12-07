@@ -2,6 +2,7 @@ import { DefaultTheme } from "vitepress";
 import basic from "./basic";
 import frontend from "./frontend";
 import node from "./node";
+import ai from "./ai";
 import cpp from "./cpp";
 import assembly from "./assembly";
 import os from "./os";
@@ -13,6 +14,7 @@ export const nav = [
   { text: "基础", link: "/basic" },
   { text: "前端", link: "/frontend" },
   { text: "Node", link: "/node" },
+  { text: "AI", link: "/ai" },
   { text: "C++", link: "/cpp" },
   { text: "汇编", link: "/assembly" },
   { text: "操作系统", link: "/os" },
@@ -34,6 +36,11 @@ export function sidebarFrontend(): DefaultTheme.SidebarItem[] {
 // Node
 export function sidebarNode(): DefaultTheme.SidebarItem[] {
   return node;
+}
+
+// AI
+export function sidebarAi(): DefaultTheme.SidebarItem[] {
+  return ai;
 }
 
 // C/C++
