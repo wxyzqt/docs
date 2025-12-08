@@ -5,8 +5,8 @@ export default [
     collapsed: false,
     base: "/ai/1",
     items: [
-      { text: "python语法", link: "/0" },
-      { text: "数学基础", link: "/01" },
+      { text: "python语法", link: "/py1" },
+      { text: "数学符号表", link: "/math1" },
     ],
   },
   {
