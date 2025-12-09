@@ -7,6 +7,7 @@ export default [
     items: [
       { text: "python语法", link: "/py1" },
       { text: "数学符号表", link: "/math1" },
+      { text: "数学基础", link: "/math2" },
     ],
   },
   {
