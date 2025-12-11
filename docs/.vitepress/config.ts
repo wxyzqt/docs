@@ -58,7 +58,7 @@ export default defineConfig({
     },
 
     outline: {
-      label: "页面导航",
+      label: "页内导航",
       level: [2, 4],
     },
 

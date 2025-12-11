@@ -1,0 +1,9 @@
+/* 配合 frontmatter,让部分页面内容占据更多空间 */
+.remove-right-side .VPDoc .aside {
+  display: none !important;
+}
+/* 让内容区占满空间 */
+.remove-right-side .VPDoc .content-container {
+  max-width: 100% !important;
+  width: 100%;
+}
