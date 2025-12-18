@@ -4,7 +4,28 @@ export default [
     text: "开发环境",
     collapsed: false,
     base: "/cpp/env",
-    items: [{ text: "vscode", link: "/vscode" }],
+    items: [
+      { text: "vscode", link: "/vscode" },
+      { text: "编译参数", link: "/compile-args" },
+      { text: "标准库", link: "/stdlib" },
+    ],
+  },
+  {
+    text: "核心指南",
+    collapsed: false,
+    base: "/cpp/core-guide",
+    items: [
+      { text: "命名和风格", link: "/name-style" },
+      { text: "类型安全与资源管理", link: "/tsrm" },
+      { text: "现代 C++ 特性", link: "/mcpp" },
+      { text: "接口设计和抽象", link: "/ia" },
+      { text: "性能和效率", link: "/pe" },
+      { text: "并发和多线程", link: "/cap" },
+      { text: "错误处理", link: "/exception" },
+      { text: "库和工具使用", link: "/stl" },
+      { text: "可移植性与兼容性", link: "/portability" },
+      { text: "安全性", link: "/safe" },
+    ],
   },
   {
     text: "基础语法",
@@ -34,11 +55,5 @@ export default [
       { text: "虚函数", link: "/virtual-function" },
       { text: "构造/析构函数", link: "/constructor-destructor-function" },
     ],
-  },
-  {
-    text: "标准库",
-    collapsed: false,
-    base: "/cpp/std",
-    items: [{ text: "概览", link: "/index" }],
   },
 ];
