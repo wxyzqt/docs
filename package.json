@@ -5,13 +5,8 @@
     "vitepress": "^1.6.3"
   },
   "scripts": {
-    "docs:dev": "vitepress dev docs --port 9999 --open /docs/basic",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs",
-    "docs": "npm run docs:dev",
-    "dev": "npm run docs:dev"
-  },
-  "dependencies": {
-    "markdown-it-katex": "^2.0.3"
+    "dev": "vitepress dev  --port 1226 --open /basic",
+    "build": "vitepress build ",
+    "preview": "vitepress preview "
   }
 }

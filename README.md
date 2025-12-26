@@ -36,13 +36,13 @@ npm run docs
 
 想要在此基础上创建自己仓库的朋友，可修改以下文件:
 
-docs/index.md，默认的首页文件
+index.md，默认的首页文件
 
-docs/.vitepress/config.ts，网站配置
+.vitepress/config.ts，网站配置
 
-docs/.vitepress/sidebar.ts，导航栏配置
+.vitepress/sidebar.ts，顶部导航栏配置
 
-docs/.vitepress/sidebars/，侧边导航栏配置文件夹
+.vitepress/sidebars/，左侧导航栏配置文件夹
 
 本仓库采用的是 vitepress，想要更丰富的外观和功能可以根据[vitepress github](https://github.com/vuejs/vitepress)或[vitepress 中文](https://vitepress.dev/zh/)自行修改。
 
@@ -54,5 +54,5 @@ docs/.vitepress/sidebars/，侧边导航栏配置文件夹
 
 ## 说明
 
-- 本仓库提供的链接以官方网站和 github 仓库为准，部分情况提供中文网址
-- 本仓库是极具个人特色的手册仓库，所以最佳用法是：copy 到本地，根据自己的需求稍加修改后变为自己的仓库。
+- 仓库提供的链接以官方网站和 github 仓库为准，部分情况提供中文网址
+- 仓库是极具个人特色的手册仓库，所以最佳用法是：copy 到本地，根据自己的需求稍加修改后变为自己的仓库。
